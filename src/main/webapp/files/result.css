@@ -1,0 +1,73 @@
+/* 
+    Document   : output
+    Created on : 1 Aug, 2012, 1:37:27 PM
+    Author     : senthil
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   
+*/
+body { 
+    background:url(bg.jpg);
+    height:100%;
+    width: auto;
+    background-size:100%;
+}
+#head {
+   position: relative;
+left: 1000px;
+width: 101px;
+background-color: #9090F5;
+margin: auto 221px;
+padding:23px 53px;
+border-radius: 12px;
+}
+#head.a{
+    background-color: #3C6844;
+    
+    text-decoration: none;
+    text-shadow: 1px 0px #1E271E;
+    color: black;
+
+}
+#head a:hover{
+    color: #ffffff;
+}
+.blocks {
+display: block;
+background: url(twitter-cd-disc-icon.png) no-repeat;
+width: 0px;
+height: 0px;
+position: relative;
+cursor: pointer;
+padding: 456px 387px;
+margin: 0px 107px;
+top: -281px;
+    }
+     
+    ul.reset,
+    ul.reset li.words {
+    display: block;
+padding: 27px 32.5px;
+padding-right: 69px;
+padding-left: 0px;
+margin: -2px -10px;
+    }
+    
+    ul.reset li,.hide {
+    position:absolute;
+    
+    }
+    
+    li.hide{
+        display: none;
+        top:51px;
+        left: 8px;
+        color: paleturquoise;
+        
+        font-family: sans-serif,cursive;
+        font-size: x-large;
+    }

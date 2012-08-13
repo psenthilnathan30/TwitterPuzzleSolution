@@ -1,0 +1,35 @@
+/* 
+    Document   : home
+    Created on : 10 Aug, 2012, 1:29:58 PM
+    Author     : senthil
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+body { 
+     background:url(bg.jpg);
+    height:auto;
+    width: auto;
+    background-size:100%;
+}
+#content{
+  position: absolute;
+top: 205px;
+left: 656px;
+}
+.row{
+    font-family: sans-serif,serif;
+    color: #33ccff;
+    font-size: x-large;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    
+}
+
+
+
