@@ -7,7 +7,7 @@
 
 <struts-config>
     <form-beans>
-     <form-bean name="TwitterForm" type="com.twitter.form.TwitterForm"/>
+     <form-bean name="TwitterForm" type="servlet.com.twitter.form.TwitterForm"/>
     </form-beans>
     
     <global-exceptions>
