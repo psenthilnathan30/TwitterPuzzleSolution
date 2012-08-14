@@ -10,7 +10,7 @@
     </head>
     <body>
         <div id="content">
-        <html:form action="/twitterHandle.action">
+        <html:form action="/twitterHandle.do">
             <table border="0" align="center">
                 <tr>
                     <td colspan="41" class="row"><font color="red"><html:errors /></font></td>
@@ -22,7 +22,7 @@
                     </tr>
                     <tr>
                         
-                        <td align="left" class="row">Twitter Handle @</td>
+                        <td align="left" class="row">Twitter Handle@</td>
                         <td align="left" class="row"><html:text property="twitterId" size="30" maxlength="30"/><br/></td>
                     </tr>
                     <tr>

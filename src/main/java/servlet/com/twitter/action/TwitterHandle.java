@@ -4,7 +4,6 @@
  */
 package servlet.com.twitter.action;
 
-import servlet.com.twitter.form.TwitterForm;
 import servlet.com.twitter.model.TwitterClass;
 import java.util.Map;
 import javax.servlet.http.HttpServletRequest;
