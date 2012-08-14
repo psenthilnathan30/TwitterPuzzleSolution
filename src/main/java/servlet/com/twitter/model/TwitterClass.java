@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.twitter.model;
+package servlet.com.twitter.model;
 
 import java.util.ArrayList;
 import java.util.Collections;
