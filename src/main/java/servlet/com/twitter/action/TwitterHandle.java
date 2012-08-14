@@ -2,9 +2,9 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.twitter.action;
+package servlet.com.twitter.action;
 
-import com.twitter.form.TwitterForm;
+import servlet.com.twitter.form.TwitterForm;
 import com.twitter.model.TwitterClass;
 import java.util.Map;
 import javax.servlet.http.HttpServletRequest;
@@ -12,6 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import org.apache.struts.action.ActionForm;
 import org.apache.struts.action.ActionForward;
 import org.apache.struts.action.ActionMapping;
+import servlet.com.twitter.form.TwitterForm;
 
 /**
  *
@@ -37,14 +38,14 @@ public class TwitterHandle extends org.apache.struts.action.Action {
             throws Exception {
         
         
-        TwitterForm tf=(TwitterForm)form;
-        String id=tf.getTwitterId();
-        int totalTweetCount=tf.getTweetCount();
+       TwitterForm twitterForm=(TwitterForm)form;
+        String id=twitterForm.getTwitterId();
+        int totalTweetCount=twitterForm.getTweetCount();
         
         TwitterClass twitterClass=new TwitterClass();
         
-        Map map=twitterClass.tweetCount(id, totalTweetCount);
-        tf.setMap(map);
+        Map map=twitterClass.getTweetsFromTwitter(id, totalTweetCount);
+        twitterForm.setMap(map);
         
         
         
