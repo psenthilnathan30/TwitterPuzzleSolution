@@ -22,7 +22,7 @@
         <action input="/home.jsp" name="TwitterForm" 
                           path="/twitterHandle" 
                           scope="request" 
-                          type="com.twitter.action.TwitterHandle" validate="true">
+                          type="servlet.com.twitter.action.TwitterHandle" validate="true">
         
         <forward name="success" path="/result.jsp" />
         <forward name="failure" path="/home.jsp"/>
